@@ -1,7 +1,7 @@
 import UIKit
 import SwiftUIKit
 
-open public class NavigatingViewController: UIViewController, Navigatable {
+open class NavigatingViewController: UIViewController, Navigatable {
   public lazy var navigate: Navigate = Navigate(controller: navigationController)
   
   private var rootView: ((NavigatingViewController) -> UIView)?
