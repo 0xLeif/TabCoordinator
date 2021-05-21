@@ -21,7 +21,7 @@ open class NavigatingViewController: UIViewController, Navigatable {
     fatalError("init(coder:) has not been implemented")
   }
   
-  public override func viewDidLoad() {
+  open override func viewDidLoad() {
     super.viewDidLoad()
     
     onDidLoad?(navigate)
