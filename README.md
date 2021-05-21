@@ -1,3 +1,3 @@
 # TabCoordinator
 
-A description of this package.
+*Easily coordinate TabView NavigationControllers*

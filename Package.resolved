@@ -1,0 +1,79 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Chain",
+        "repositoryURL": "https://github.com/0xLeif/Chain",
+        "state": {
+          "branch": null,
+          "revision": "e693d4dcc8b21910299c076346f62d4de80a4aa8",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "DataObject",
+        "repositoryURL": "https://github.com/0xLeif/DataObject",
+        "state": {
+          "branch": null,
+          "revision": "8240c5180af943810c60f7991648a82fd9ae6a50",
+          "version": "0.2.2"
+        }
+      },
+      {
+        "package": "E",
+        "repositoryURL": "https://github.com/0xLeif/E.num",
+        "state": {
+          "branch": null,
+          "revision": "a4b2b0cf453edf2e2b3853cdcdd7c8596cadbf43",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "Observation",
+        "repositoryURL": "https://github.com/0xLeif/Observation",
+        "state": {
+          "branch": null,
+          "revision": "9e04c7056782c73a8f2ad6cea43f71a1c5a9700b",
+          "version": "0.0.2"
+        }
+      },
+      {
+        "package": "SURL",
+        "repositoryURL": "https://github.com/0xLet/SURL",
+        "state": {
+          "branch": null,
+          "revision": "c04f941eea250f78f5c7151c03cd2489ca9ffc2b",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "SwiftFu",
+        "repositoryURL": "https://github.com/0xLet/SwiftFu",
+        "state": {
+          "branch": null,
+          "revision": "058daefbaf3cc1b23ab9b7a182c0d08c0b253383",
+          "version": "0.1.2"
+        }
+      },
+      {
+        "package": "SwiftUIKit",
+        "repositoryURL": "https://github.com/0xLet/SwiftUIKit.git",
+        "state": {
+          "branch": null,
+          "revision": "14185d60162472bcd36689aa94b94d35cde387e1",
+          "version": "3.0.0"
+        }
+      },
+      {
+        "package": "WTV",
+        "repositoryURL": "https://github.com/0xLet/WTV",
+        "state": {
+          "branch": null,
+          "revision": "8eefc65bf823eb7612047dbd2df4c6c73864c500",
+          "version": "0.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

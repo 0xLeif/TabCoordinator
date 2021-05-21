@@ -2,14 +2,23 @@ import XCTest
 @testable import TabCoordinator
 
 final class TabCoordinatorTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(TabCoordinator().text, "Hello, World!")
-    }
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+  func testExample() {
+    let expectedNumberOfViewControllers = 3
+    
+    XCTAssertEqual(
+      RootViewController(
+        options: [
+          TabBarOption(tabTitle: "First", tabImage: nil, rootViewController: NavigatingViewController()),
+          TabBarOption(tabTitle: "Second", tabImage: nil, rootViewController: NavigatingViewController()),
+          TabBarOption(tabTitle: "Third", tabImage: nil, rootViewController: NavigatingViewController())
+        ]
+      )
+      .tabController.viewControllers?.count,
+      expectedNumberOfViewControllers
+    )
+  }
+  
+  static var allTests = [
+    ("testExample", testExample),
+  ]
 }
