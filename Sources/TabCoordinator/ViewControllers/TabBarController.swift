@@ -4,12 +4,12 @@ import SwiftUIKit
 public struct TabBarOption {
     public let tabTitle: String
     public let tabImage: UIImage?
-    public let rootViewController: NavigatingViewController
+    public let rootViewController: Navigatable
     
     public init(
         tabTitle: String,
         tabImage: UIImage?,
-        rootViewController: NavigatingViewController
+        rootViewController: Navigatable
     ) {
         self.tabTitle = tabTitle
         self.tabImage = tabImage
