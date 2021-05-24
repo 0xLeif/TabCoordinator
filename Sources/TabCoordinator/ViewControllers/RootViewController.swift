@@ -8,7 +8,7 @@ open class RootViewController: UIViewController, Presenting {
     
     public let options: [TabBarOption]
     
-    open init(options: [TabBarOption]) {
+    public init(options: [TabBarOption]) {
         self.options = options
         self.tabController = TabBarController(
             options: options

@@ -21,7 +21,7 @@ open class TabBarController: UITabBarController, TabNavigating {
     
     public let options: [TabBarOption]
     
-    open init(options: [TabBarOption]) {
+    public init(options: [TabBarOption]) {
         self.options = options
         super.init(nibName: nil, bundle: nil)
         

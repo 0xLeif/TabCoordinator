@@ -7,7 +7,7 @@ open class NavigatingViewController: UIViewController, Navigatable {
     private var rootView: ((NavigatingViewController) -> UIView)?
     private var onDidLoad: ((Navigate) -> Void)?
     
-    open init(
+    public init(
         rootView: ((NavigatingViewController) -> UIView)? = nil,
         onDidLoad: ((Navigate) -> Void)? = nil
     ) {
