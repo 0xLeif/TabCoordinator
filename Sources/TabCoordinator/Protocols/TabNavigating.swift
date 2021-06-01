@@ -9,7 +9,7 @@ public extension TabNavigating {
     func navigate(to: UIViewController, style: Navigate.NavigationStyle) {
         guard let viewControllers = viewControllers,
               let navigationController = viewControllers[selectedIndex] as? UINavigationController,
-              let navigatingViewController = navigationController.viewControllers.first as? NavigatingViewController else {
+              let navigatingViewController = navigationController.viewControllers.first as? Navigatable else {
             return
         }
         navigatingViewController.navigate(to: to, style: style)
